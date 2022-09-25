@@ -5,7 +5,10 @@ import os
 API_KEY = "0e149c86ae2c55aafcb8a240070561a7"  # Enter API KEY FROM OPEN WEATHER
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"  # BASE URL
 
-city = input("Enter City Name :: ")  # INPUTS
+print("Dragon Weather Finder")
+for i in range(1, 22):
+    print("-", end="")
+city = input("\nEnter City Name :: ")  # INPUTS
 
 request_url = f"{BASE_URL}?q={city}&appid={API_KEY}"  # REQUEST URL
 
