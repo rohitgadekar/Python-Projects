@@ -1,6 +1,6 @@
 # Dragon Weather Finder #
 
-##Features
+## Features
    * Weather
    * Temperature
    * Humidity
