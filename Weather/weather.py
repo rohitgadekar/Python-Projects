@@ -1,8 +1,9 @@
 from urllib import response
 import requests
 import os
+import cred
 
-API_KEY = "0e149c86ae2c55aafcb8a240070561a7"  # Enter API KEY FROM OPEN WEATHER
+API_KEY = cred.api_key  # API KEY FROM OPEN WEATHER
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"  # BASE URL
 
 print("Dragon Weather Finder")
